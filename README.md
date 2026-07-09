@@ -1,4 +1,5 @@
 🛣️ Road Damage Detection using Deep Learning
+
 📌 Project Overview
 
 Road infrastructure is a vital component of transportation systems and economic development. Poor road conditions, such as potholes, cracks, and surface deterioration, can lead to vehicle damage, increased maintenance costs, traffic congestion, and serious road accidents. Traditional road inspection methods rely on manual surveys, which are time-consuming, costly, and susceptible to human error.
@@ -6,6 +7,7 @@ Road infrastructure is a vital component of transportation systems and economic 
 This project presents a Deep Learning-based Road Damage Detection System capable of automatically classifying road surface images into different damage categories. The application provides real-time predictions through a user-friendly web interface, enabling faster and more accurate road condition assessment.
 
 🎯 Project Objectives
+
 Develop an intelligent system for automatic road damage classification.
 Detect different road surface conditions using deep learning.
 Reduce the dependency on manual road inspections.
@@ -13,6 +15,7 @@ Provide real-time predictions from uploaded road images.
 Build a lightweight and interactive web application for end users.
 
 🚀 Features
+
 Upload road surface images.
 Real-time road damage classification.
 Multi-class image classification.
@@ -20,6 +23,8 @@ Confidence score for predictions.
 Damage-specific maintenance recommendations.
 Easy-to-use Streamlit web application.
 Lightweight deployment suitable for real-world applications.
+
+
 🛣️ Damage Categories
 
 The model classifies images into the following categories:
@@ -61,7 +66,9 @@ EfficientNetB0
 
 Transfer learning improves classification accuracy while reducing training time by leveraging pre-trained ImageNet weights.
 
+
 ⚙️ Technologies Used
+
 Programming Language
 Python
 Libraries
@@ -116,24 +123,43 @@ Business Use Cases:
 • Public Users: Report road damage using mobile-captured images
 
 Road_Damage_Detection/
+
+
 │
 ├── app.py
+
 ├── road_damage_classifier.keras
+
 ├── requirements.txt
+
 ├── README.md
+
 │
+
 ├── data/
+
 │   ├── train/
+
 │   ├── validation/
+
 │   └── test/
+
 │
+
 ├── notebooks/
+
 │   └── model_training.ipynb
+
 │
+
 ├── models/
+
     ├── baseline_cnn.keras
+
     ├── mobilenet.keras
+
     ├── resnet50.keras
+    
     └── efficientnet.keras
 
 ▶️ Installation
